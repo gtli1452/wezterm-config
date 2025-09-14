@@ -29,7 +29,7 @@ return {
 
    -- tab bar
    enable_tab_bar = true,
-   hide_tab_bar_if_only_one_tab = false,
+   hide_tab_bar_if_only_one_tab = true,
    use_fancy_tab_bar = false,
    tab_max_width = 25,
    show_tab_index_in_tab_bar = false,
@@ -42,6 +42,9 @@ return {
    command_palette_rows = 25,
 
    -- window
+   window_decorations = 'RESIZE',
+   -- window_background_opacity = 0.9,
+   -- macos_window_background_blur = 30,
    window_padding = {
       left = 0,
       right = 0,
